@@ -59,7 +59,7 @@ foreach($html->find('div[id=video_genres]')[0]->children(0)->children(0)->childr
   $i++;
 }
 $i = 0;
-foreach($html->find('div[id=video_cast]')[0]->children(0)->children(0)->children(1)->find('span[id=cast620]') as $data){
+foreach($html->find('div[id=video_cast]')[0]->children(0)->children(0)->children(1)->find('span[class=cast]') as $data){
   $output['cast'][$i] = $data->children(0)->children(0)->innertext;
   $i++;
 }
