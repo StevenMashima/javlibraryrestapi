@@ -1,3 +1,5 @@
-# xhamsterAPI
+# Javlibrary REST API
 
-Live Demo http://stevenmashima.xyz/api/xhamster/
+Usage 
+javlibraryRESTAPI.php?url=<<javlibrary_link>>
+
